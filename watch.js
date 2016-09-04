@@ -7,5 +7,4 @@ fs.watch("files/config.json", function(current, previous) {
   console.log("config changed");
   config = JSON.parse(fs.readFileSync("files/config.json"));
   console.log("new config file: ", config);
-}
-)
+})
